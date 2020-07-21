@@ -1,0 +1,21 @@
+h1{
+	color:blue;
+	font-size: 36px;
+}
+.style1{
+	color:pink;
+	font-size: 66px;
+}
+li{
+	color:red;
+}
+a{
+	color:green;
+	border-bottom: 50px;
+}
+a:hover{
+	color:yellow;
+}
+a:active{
+	color:gray;
+	}/*}*/
