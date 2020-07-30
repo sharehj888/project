@@ -1,0 +1,271 @@
+    html,
+    body,
+    div,
+    span,
+    applet,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section {
+        display: block;
+    }
+    
+    body {
+        line-height: 1;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    blockquote,
+    q {
+        quotes: none;
+    }
+    
+    blockquote:before,
+    blockquote:after,
+    q:before,
+    q:after {
+        content: '';
+        content: none;
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    
+    body {
+        background-color: yellowgreen;
+    }
+    
+    .wrap {
+        width: 800px;
+        height: 600px;
+        margin: 0 auto;
+    }
+    
+    .wrap .hex {
+        float: left;
+        font-size: 36px;
+        writing-mode: vertical-lr;
+        margin-left: 30px;
+        margin-top: 90px;
+    }
+    
+    .wrap .page {
+        float: left;
+        font-size: 24px;
+        writing-mode: vertical-lr;
+        margin-top: 90px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    
+    .clearfix {
+        clear: both;
+    }
+    
+    .card h3 {
+        margin: 5px 0px;
+        font-family: monospace;
+        font-weight: bolder;
+    }
+    
+    .card li {
+        padding: 5px 0px;
+        font-size: 12px;
+    }
+    
+    .card ul {
+        margin-top: 20px;
+    }
+    
+    .card span {
+        font-size: 22px;
+        font-weight: bold;
+    }
+    
+    .card {
+        width: 500px;
+        float: left;
+        height: 200px;
+        background-color: turquoise;
+        margin-top: 80px;
+        border-radius: 20px;
+        padding: 10px 10px;
+        box-shadow: brown 0px 0px 8px 0px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .card1 {
+        position: absolute;
+        width: 100px;
+        height: 0;
+        border-width: 0 50px 87px;
+        border-style: solid;
+        border-color: transparent transparent green;
+        top: -40px;
+        right: -90px;
+    }
+    
+    .card1::before {
+        position: absolute;
+        content: "";
+        top: 87px;
+        right: -50px;
+        width: 100px;
+        height: 0;
+        background: none;
+        border-width: 87px 50px 0;
+        border-style: solid;
+        border-color: green transparent transparent;
+    }
+    
+    .card2 {
+        position: absolute;
+        width: 100px;
+        height: 0;
+        border-width: 0 50px 87px;
+        border-style: solid;
+        border-color: transparent transparent yellow;
+        top: 150px;
+        right: -60px;
+    }
+    
+    .card2::before {
+        position: absolute;
+        content: "";
+        top: 87px;
+        right: -50px;
+        width: 100px;
+        height: 0;
+        background: none;
+        border-width: 87px 50px 0;
+        border-style: solid;
+        border-color: yellow transparent transparent;
+    }
+    
+    .card3 {
+        position: absolute;
+        width: 50px;
+        height: 0;
+        border-width: 0 20px 40px;
+        border-style: solid;
+        border-color: transparent transparent royalblue;
+        top: 80px;
+        right: 110px;
+    }
+    
+    .card3::before {
+        position: absolute;
+        content: "";
+        top: 40px;
+        right: -20px;
+        width: 50px;
+        height: 0;
+        background: none;
+        border-width: 40px 20px 0;
+        border-style: solid;
+        border-color: royalblue transparent transparent;
+    }
+    
+    .card img {
+        border-radius: 10px;
+    }

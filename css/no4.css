@@ -1,0 +1,33 @@
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 50px;
+    background-color: plum;
+}
+
+.left {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    float: left;
+}
+
+.centont {
+    width: 800px;
+    height: 100px;
+    background-color: hotpink;
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.footer {
+    height: 100px;
+    width: 1000px;
+    background-color: orange;
+}
